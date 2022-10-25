@@ -75,11 +75,12 @@ function createModal(meal){
     <div class="recipe_detail">
         <div class="close_btn">&#x2716</div>
         <div class="recipe_detail_one">
-            <p class="recipe_meal_name">${meal.strMeal}</p>
-            <div class="recipe_category_area">
-                <p class="recipe_category_name">${meal.strCategory}</p>
-                <p class="recipe_category_name">${meal.strArea}</p>
-                
+            <div class="meal_names">
+                <p class="recipe_meal_name">${meal.strMeal}</p>
+                <div class="recipe_category_area">
+                    <p class="recipe_category_name">${meal.strCategory}</p>
+                    <p class="recipe_category_name">${meal.strArea}</p>
+                </div>
             </div>
             <img src="${meal.strMealThumb}" alt="${meal.strMeal}" class="recipe_img">
         </div>
