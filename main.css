@@ -261,4 +261,10 @@ ol{
     .recipe_img{
         max-width: 120px;
     }
+    .close_btn{
+        top: 140px;
+    }
+    .recipe_meal_name{
+        font-size: 18px;
+    }
 }
