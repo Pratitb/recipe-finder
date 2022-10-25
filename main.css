@@ -255,4 +255,10 @@ ol{
         font-size: 12px;
         padding: 5px;
     }
+    .recipe_detail{
+        padding: 40px 30px 30px;
+    }
+    .recipe_img{
+        max-width: 120px;
+    }
 }
